@@ -141,6 +141,23 @@ img {
   nav {
     display: none;
   }
+  .in {
+    display: inline-block;
+  }
+  .in ul {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    top: 50px;
+    right: 0px;
+    background: #000;
+  }
+  .in ul li {
+    padding: 10px 30px;
+    margin: 0 auto 0;
+  }
   .humberger {
     display: inline-block;
     width: 40px;
